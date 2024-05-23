@@ -27,7 +27,7 @@ function checkGuess() {
   // Get value from guess input element
   const guess = parseInt(guessInput.value, 10);
 
- // set for guesses lower than 1 or higher than 99
+ // Stretch goal set for guesses lower than 1 or higher than 99
  if (guess < 1) {
   alert("Please enter a number greater than or equal to 1.");
   return; 
